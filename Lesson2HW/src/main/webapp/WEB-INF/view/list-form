@@ -1,0 +1,13 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<form:form action="list-form" modelAttribute="list-form">
+
+    <input type="submit" value="Submit" />
+</form:form>
+</body>
+</html>
